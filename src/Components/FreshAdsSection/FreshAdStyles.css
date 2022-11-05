@@ -1,0 +1,236 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.freshAd__wrapper {
+  padding: 60px 20px;
+  height: auto;
+  background: #F8FAFE;
+  position: relative;
+}
+
+.freshAd__subWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.freshAd__wrapper  h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+
+.freshAd__underline {
+  background-color: black;
+  width: 56px;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
+  margin: -40px auto 0 auto;
+}
+
+.freshAdTitle__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.freshAdTitle__wrapper .vehicles {
+  width: fit-content !important;
+  color: #4688f1;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 38.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.freshAdTitle__wrapper .seeAll__vehicle {
+  color: #303393;
+  /* position: absolute;
+  right: 50px;
+  top: 155px; */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  /* margin-right: 50px; */
+}
+
+.freshAdCards__container {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  /* max-width: 1440px; */
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  /* gap: 10px; */
+}
+
+.freshAd__card {
+  width: 24%;
+  height: auto;
+  margin-top: 30px;
+  padding: 10px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s all ease-in-out;
+  overflow: hidden;
+  /* gap: 10px; */
+  background-color: #fff;
+}
+
+.freshAd__card > img {
+  width: 100%;
+  padding: auto !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s all ease-in-out;
+  align-items: center;
+}
+
+.freshAd__card img:hover {
+  transition: 0.3s all ease-in-out;
+  transform: scale(1.2, 1.2);
+}
+
+.freshAdCard__info {
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+}
+.freshAdCard__info h5 {
+  /* font-weight: 700 !important; */
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.heart__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.freshAdCard__detail {
+  font-weight: normal;
+  font-size: 11.5399px;
+  line-height: 14.5px;
+  color: #939393;
+  width: 254.84px;
+  height: 43.27px;
+  text-align: left;
+  padding: 5px 10px;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price__wrapper {
+  text-align: left;
+  padding-left: 10px;
+}
+.freshAdCard__price {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4688f1;
+}
+
+.location__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.location__icon {
+  width: 15px;
+  height: 18px;
+}
+
+.freshAd__location {
+  text-align: left;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* @media only screen and (min-width: 1424px) and (max-width: 1920px){
+  .freshAd__card{
+    padding: 15px 10px;
+    height: auto;
+  }
+  .title__wrapper{
+    margin-top: 15px;
+  }
+  .freshAdCard__info h5{
+    font-size: 25px;
+   
+  }
+
+  .title__wrapper .heart__icon{
+    width: 28px;
+    height: 27px;
+  }
+   .price__wrapper{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .freshAdCard__detail{
+    font-size:  16px;
+    padding: 10px 6px;
+    width: 339.79px;
+    line-height: 16.5px;
+    margin-bottom: 25px;
+  }
+  .location__wrapper{
+    margin-top: 10px;
+  }
+  .location__wrapper p{
+    font-size: 17px;
+  }
+  .location__wrapper .location__icon {
+    width: 21px;
+    height: 21px;
+  }
+
+  .seeAll__vehicle {
+    color:  #4688f1;
+    position: absolute;
+    right: 50px;
+    top: 155px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .freshAd__underline {
+    background-color: black;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin: -50px auto 0 auto;
+  }
+} */

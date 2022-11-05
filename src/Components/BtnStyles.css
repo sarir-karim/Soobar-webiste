@@ -1,0 +1,21 @@
+.viewAdsBtn{
+    width: 200px;
+    height: 56px;
+    margin: 30px 0;
+  }
+  .viewAdsBtn {
+    width: fit-content;
+    margin: 50px auto;
+  }
+  .viewAdsBtn button {
+    background-color: #4688f1;
+    width: 194px;
+    height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+  }
+  .viewAdsBtn button:hover {
+    background-color: #1868e9;
+    transition: 0.3s all ease-in-out;
+  }

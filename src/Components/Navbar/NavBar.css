@@ -1,0 +1,140 @@
+.navbar__container{
+    background-color: #F7F7F7;
+}
+
+.navbar__container .navbar__items{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar__container .item{
+    font-weight: 600;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.navbar__container .item2{
+    /* margin: 0 15px; */
+    padding-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.announcements{
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.menu img{
+    width: 10px;
+    margin-right: 5px;
+}
+
+ .all__cate{
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+     margin-left: 35px;
+}
+
+.menu .menu_icon{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.real__estate img{
+    width: 12px;
+}
+
+.cars img{
+    width: 15px;
+}
+
+.mobiles img{
+    width: 9px;
+    height: 14px;
+}
+
+.electronics img{
+    width: 11px;
+}
+
+.navbar__container .services img{
+    width: 12px;
+}
+
+.announcements img{
+ width: 14px ;
+}
+
+.our__partners{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    color: #4189DD;
+  }
+  
+  .our__partners > h4{
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: 100;
+  }
+
+/* @media only screen and (min-width: 1424px) and (max-width: 1920px) {
+    .navbar__container .navbar__items{
+       height: 82.827px
+    }
+    .all__cate{
+        width: 173.33px;
+        height: 58.67px;
+         margin-left: 35px;
+         font-weight: 600;
+    }
+    .menu{
+        display: flex;
+        font-size: 17.7778px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .menu_icon{
+        margin-left: 5px;
+        font-size: 16px;
+        color: #262626
+    }
+    .menu img{
+        width: 16.42px;
+        height: 15.05px;
+    }
+    .real__estate img{
+        width: 16.42px;
+        height: 15.05px;
+    }
+    .announcements img{
+        width: 20.42px;
+        height: 20.05px;
+    }
+    .our__partners {
+        font-size: 16.422px;
+        font-weight: 600;
+    }
+    .our__partners h4 {
+        font-size: 16.422px;
+        font-weight: 500;
+    }
+
+    .partner__icon{
+        font-size: 20.422px;
+        margin-top: 3px;
+    }
+} */

@@ -1,0 +1,186 @@
+ .allCate__container{
+    margin-left: 40px;
+}
+
+.allCate__option{
+    padding: 6px 30px 10px 10px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+select:focus{
+  outline: none;
+}
+.allCate__container select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+  }
+
+  .announce__container select{
+      padding: 5px 25px;
+      background-color: transparent;
+      border: 0;
+      font-size: 14px;
+
+  }
+
+  .announce__container select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 65%;
+  }
+
+  .jobs__container select{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+
+}
+
+.jobs__container select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 65%;
+}
+
+.services__container select{
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.services__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 95%;
+background-position-y: 65%;
+}
+
+/* electronics */
+
+.electronics__container select{
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.electronics__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 95%;
+background-position-y: 65%;
+}
+
+/* Mobile */
+
+.mobile__container select{
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.mobile__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 95%;
+background-position-y: 65%;
+}
+
+/* bikes */
+.bikes__container select{
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.bikes__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 85%;
+background-position-y: 80%;
+}
+
+
+/* cars container */
+.cars__container select{
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.cars__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 90%;
+background-position-y: 80%;
+}
+
+/* cars container */
+.realstate__container select{
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+
+}
+
+.realstate__container select{
+-webkit-appearance: none;
+-moz-appearance: none;
+background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 95%;
+background-position-y: 80%;
+}
+
+/* .our__partners{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  color: #4189DD;
+}
+
+.our__partners > h4{
+  font-size: 14px;
+  margin-top: 3px;
+  font-weight: 100;
+} */
+
+.partner__icon{
+  margin-right: 5px;
+}
+
+@media  screen and (min-width: 1920px) {
+  
+}

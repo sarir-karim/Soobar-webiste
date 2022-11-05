@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.popular__wrapper {
+  margin-top: 50px;
+  padding: 50px;
+  height: auto;
+  background-color: #fcfcff;
+  border: none;
+}
+.popular__wrapper > h2 {
+  max-width: 1440px;
+  width: fit-content;
+  margin: 30px auto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+.cards__container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 40px; 
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 23%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.5);
+  border-radius: 4px;
+  border: none;
+  transition: 0.2s all ease-in-out;
+  overflow: hidden;
+}
+.card > img {
+  /* width: auto;
+    height: 290px; */
+  padding: auto !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s all ease-in-out;
+  align-items: center;
+}
+.card:hover > img{
+  transition: 0.3s all ease-in-out;
+  transform: scale(1.2, 1.2);
+}
+.card .card__info {
+  text-align: center;
+  padding-top: 20px;
+}
+.card__info h5 {
+  /* font-weight: 700 !important; */
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+.seeMore__btn {
+  width: fit-content;
+  margin: 50px auto;
+}
+.seeMore__btn button {
+  background-color: #4688f1;
+  width: 194px;
+  height: 45px;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+}
+.seeMore__btn button:hover {
+  background-color: #1868e9;
+  transition: 0.3s all ease-in-out;
+}
+
+/* @media only screen and (min-width: 1424px) and (max-width: 1920px){
+  .card{
+    height: auto;
+    padding: 20px 10px;
+  }
+  .card__info h5 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .card__info p{
+    font-size: 20px;
+
+  }
+
+  .seeMore__btn button {
+    background-color: #4688f1;
+    width: 260.13px;
+    height: 60.34px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    font-size: 20.1131px;
+  }
+
+} */

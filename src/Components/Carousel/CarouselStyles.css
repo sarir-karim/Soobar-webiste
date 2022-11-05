@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+.carousel__wrapper {
+    margin-top: 20px;
+    position: relative;
+    
+}
+.carousel__wrapper p{
+    color: #4D4E58;
+    position: absolute;
+    top: -125px;
+    left: -150px;
+}
+.carousel__content h3 {
+ position: absolute;
+ max-width: 1440px;
+ top: -230px;
+ left: -150px;
+ color: black;
+ text-align: left;
+ font-size: 35px;
+ font-weight: 650;
+ /* border: 1px solid red; */
+ width: 500px;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: #1478EB !important;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    position: relative;
+    top: 50px;
+}

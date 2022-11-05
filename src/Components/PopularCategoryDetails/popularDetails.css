@@ -1,0 +1,470 @@
+* {
+  font-family: "Poppins" sans-serif;
+}
+
+.popular__subContainer {
+  padding: 20px 55px;
+  background-color: #e5e5e5;
+  height: auto;
+  
+}
+
+.popular__subContainer .jamortron__btns {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.popular__subContainer .home__btns {
+  display: flex;
+  align-items: center;
+
+}
+.popular__subContainer .vehicles__btns {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.popular__subContainer .vehicles__btns span {
+  font-size: 12px;
+  margin-right: 20px;
+  font-weight: 400;
+}
+
+.popular__subContainer .cars__btns {
+  display: flex;
+  align-items: start;
+}
+.popular__subContainer .cars__btns span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.popular__subContainer .home__btns .homeIcon {
+  margin-right: 12px;
+}
+
+.popular__subContainer .detail__section {
+  padding-left: 60px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.popular__subContainer .detail__section h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #1f1d28;
+}
+
+/* image resize */
+
+.popular__subContainer .detail__section .image__main {
+  position: relative;
+  width: 900px;
+}
+.popular__subContainer .detail__section .image__main .popCar {
+  width: 912px;
+  height: 553.71px;
+}
+.popular__subContainer .detail__section .resize {
+  position: absolute;
+  right: 23px;
+  top: 23px;
+}
+.popular__subContainer .detail__section .slider {
+  margin-left: 1px;
+}
+.popular__subContainer .detail__section .slider .slider__main {
+  width: 97% !important;
+  margin: 20px auto !important;
+  margin-left: 20px !important;
+}
+
+.slick-slide {
+  width: 175px !important;
+  margin: 0 !important;
+  padding-left: 5px;
+}
+.slick-arrow {
+  height: 121.6px !important;
+  width: 17.37px;
+  background: #fff;
+  border-radius: 17.3714px;
+  border: 1.08571px solid #e7f4fd;
+}
+.slick-arrow:hover {
+  height: 121.6px !important;
+  width: 17.37px;
+  background: #fff;
+  border-radius: 17.3714px;
+  border: 1.08571px solid #e7f4fd;
+}
+
+.slick-next {
+  height: 121.6px !important;
+  width: 17.37px;
+  background: #fff;
+  border-radius: 17.3714px;
+  border: 1.08571px solid #e7f4fd;
+}
+.slick-next:hover {
+  height: 121.6px !important;
+  width: 17.37px;
+  background: #fff;
+  border-radius: 17.3714px;
+  border: 1.08571px solid #e7f4fd;
+}
+.slick-prev:before {
+  /* color: #000; */
+  margin-right: 20px !important;
+  color: #3abef0;
+  font-size: 15px;
+  text-align: center;
+}
+.slick-next:before {
+  color: #3abef0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.popular__subContainer .detail__section .slider .image__1 > img {
+  width: 158.51px;
+  height: 121.6px;
+  margin: 0;
+  border-radius: 17.3714px;
+}
+
+.popular__subContainer .detail__section .image__box {
+  display: flex;
+}
+
+/* details style is here */
+
+.popular__subContainer .product__details h5{
+  font-weight: 600;
+  font-size: 26.0571px;
+  line-height: 35px;
+  color: #262626;
+  margin-top: 30px;
+}
+.popular__subContainer .detail__items {
+  display: flex;
+}
+.popular__subContainer .detail__items ul{
+  padding-left: 0;
+}
+.popular__subContainer .detail__items ul li{
+  list-style: none;
+  font-weight: 500;
+font-size: 15.2px;
+line-height: 50px;
+align-items: center;
+letter-spacing: -0.002em;
+
+}
+
+.popular__subContainer .detail__items ul li img{
+  margin-right: 20px;
+}
+.popular__subContainer .detail__items .item1{
+  flex: 0.3;
+}
+.popular__subContainer .detail__items .item2{
+  flex: 0.2;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.popular__subContainer .detail__items .item2 ul li{
+  font-size: 17.3714px;
+  font-weight: 500;
+  letter-spacing: -0.002em;
+}
+.popular__subContainer .detail__items .item3{
+  flex: 0.4;
+}
+.popular__subContainer .detail__items .item4{
+  flex: 0.1;
+  text-align: right;
+  
+}
+.popular__subContainer .detail__items .item4 ul li{
+  font-size: 17.3714px;
+  font-weight: 500;
+  letter-spacing: -0.002em;
+}
+/* detail section ends here */
+
+/* description section starts here */
+
+.description__main > h5{
+  font-weight: 600;
+font-size: 26.0571px;
+line-height: 35px;
+margin-top: 30px;
+}
+
+.description__main .description__detail ul{
+  padding-left: 0;
+}
+.description__main .description__detail ul .detail__list2{
+  margin-bottom: 30px;
+}
+.description__main .description__detail ul .detail__list3{
+  margin-bottom: 30px;
+}
+
+.description__main .description__detail ul li{
+  font-weight: normal;
+font-size: 17.3714px;
+line-height: 33px;
+letter-spacing: -0.013em;
+color: #1F1D28;
+list-style: none;
+}
+
+.description__main .description__detail .eye{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.description__main .description__detail .eye > img{
+  margin-right: 10px;
+  width: 27px;
+height: 27px;
+}
+.description__main .description__detail .detail__list6{
+  display: flex;
+  gap: 20px
+}
+
+
+
+
+/* description ends here */
+.popular__subContainer .profile__section {
+  width: 264px;
+  height: 622px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  background-color: #ffff;
+  border: 1px solid #e7f4fd;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.popular__subContainer .profile__section .profile__card .price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.popular__subContainer .profile__section .profile__card .share img {
+  margin-left: 4px;
+}
+
+.popular__subContainer .profile__section .profile__card .price span {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  color: #3a2d78;
+}
+
+.popular__subContainer .profile__section .profile__card .price_p {
+  font-size: 12px;
+  color: #3a2d78;
+  background: #e7f4fd;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 3px 20px;
+}
+
+.popular__subContainer .profile__section .profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.popular__subContainer .profile__section .name_badge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular__subContainer .profile__section .account {
+  font-size: 12px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.popular__subContainer .profile__section .profile__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.popular__subContainer .profile__section .profile__button {
+  background: #4189dd;
+  border-radius: 16px;
+  width: 232px;
+  height: 52px;
+  border: 0;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.popular__subContainer .profile__section .profile__email,
+.profile__phone,
+.profile__whatsapp,
+.profile__time {
+  width: 232px;
+  height: 72px;
+  left: 16px;
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #f3f7f9;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.popular__subContainer .profile__section .profile__email > img {
+  margin-left: 15px;
+}
+.popular__subContainer .profile__section .profile__phone > img {
+  margin-left: 15px;
+}
+.popular__subContainer .profile__section .profile__whatsapp > img {
+  margin-left: 15px;
+}
+.popular__subContainer .profile__section .profile__whatsapp > img {
+  margin-left: 15px;
+}
+.popular__subContainer .profile__section .profile__time > img {
+  margin-left: 15px;
+}
+.popular__subContainer .profile__section .profile__email .whatsapp__info,
+.phone__info,
+.profile__info,
+.time__info {
+  margin-left: 20px;
+}
+.popular__subContainer .profile__section .profile__email .whatsapp__info p {
+  color: #3abef0;
+  cursor: pointer;
+}
+.popular__subContainer .profile__section .profile__phone .phone__info p {
+  color: #3abef0;
+  cursor: pointer;
+}
+.popular__subContainer .profile__section .profile__whatsapp .profile__info p {
+  color: #3abef0;
+  cursor: pointer;
+}
+
+/* safety card */
+.popular__subContainer .safety__main {
+  width: 264px;
+  height: 463px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  background-color: #ffff;
+  border: 1px solid #e7f4fd;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.popular__subContainer .safety__main .safety__head {
+  display: flex;
+  align-items: center;
+}
+.popular__subContainer .safety__main .safety__head .safe__heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.popular__subContainer .safety__main .safety__details {
+  margin-top: 20px;
+}
+.popular__subContainer .safety__main .safety__details .list {
+  margin-top: 20px;
+}
+.popular__subContainer .safety__main .safety__details ul li {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: -15px;
+  line-height: 21px;
+  color: #5f5f5f;
+  list-style: none;
+}
+
+.popular__subContainer .safety__main .safety__details ul .dot {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 5px;
+}
+
+.popular__subContainer .safety__main .report__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 226px;
+  height: 47px;
+  left: 19px;
+  top: 395px;
+  background: #fffafa;
+  border: 1px solid #d80027;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+.popular__subContainer .safety__main .report__button > img {
+  margin-right: 20px;
+}
+
+.popular__subContainer .location__main {
+  width: 264px;
+  height: 351px;
+  background: #ffffff;
+  border: 1px solid #e7f4fd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.popular__subContainer .location__main .location__card h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1f1d28;
+  letter-spacing: 0.002em;
+  margin-bottom: 0;
+}
+
+.popular__subContainer .location__main .location__card .country__loc{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.popular__subContainer .location__main .location__card .location__inner{
+  position: relative;
+
+}
+
+.popular__subContainer .location__main .location__card .location__inner .plain{
+position: absolute;
+left: 90px;
+top: 90px
+}

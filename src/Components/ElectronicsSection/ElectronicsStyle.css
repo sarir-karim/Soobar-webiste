@@ -1,0 +1,233 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.electronics__wrapper {
+  padding: 70px 20px;
+  height: auto;
+  background-color: #f7fafe;
+  background: #F8FAFE;
+  /* opacity: 0.8;; */
+  border: none;
+  position: relative;
+}
+
+/* .electronics__wrapper > h2 {
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 60px;
+  }
+  
+  .electronics__underline {
+    background-color: black;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin: -40px auto 0 auto;
+  } */
+.electronics__wrapper .electronics {
+  width: fit-content !important;
+  color: #4688f1;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 42.5rem;
+}
+.seeAll__electronics {
+  color: #4688f1;
+  /* position: absolute; */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+.electronics__subWrap{
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.electronicsCards__container {
+  /* margin-top: 20px;
+  padding: 0 40px;
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  column-gap: 2%;
+  row-gap: 5%;
+  justify-content: space-between; */
+
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 40px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.electronics__card {
+  /* width: 23%;
+  height: auto;
+  margin-top: 30px;
+  padding: 10px !important;
+  /// box-shadow: 0px 0px 17px 5px #d9d9da61;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s all ease-in-out;
+  overflow: hidden;
+  background-color: #fff; */
+
+  width: 23%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.5);
+  border-radius: 4px;
+  border: none;
+  transition: 0.2s all ease-in-out;
+  overflow: hidden;
+}
+/* .electronics__card:hover {
+    color: #fff !important;
+    background-color: #8abcf5 !important;
+    transition: 0.3s all ease-in-out;
+  } */
+
+.electronics__wrapper .electronics__card > img {
+  width: 100%;
+  /* height: 290px; */
+  padding: auto !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s all ease-in-out;
+  align-items: center;
+}
+
+.electronics__card img:hover {
+  transition: 0.3s all ease-in-out;
+  transform: scale(1.2, 1.2);
+}
+
+.electronicsCard__info {
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+}
+.electronicsCard__info h5 {
+  /* font-weight: 700 !important; */
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.heart__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.electronicsCard__detail {
+  font-weight: normal;
+  font-size: 11.5399px;
+  line-height: 14.5px;
+  color: #939393;
+  width: 254.84px;
+  height: 43.27px;
+  text-align: left;
+  padding: 5px 10px;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price__wrapper {
+  text-align: left;
+  padding-left: 10px;
+}
+.electronicsCard__price {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4688f1;
+}
+
+.location__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.location__icon {
+  width: 15px;
+  height: 18px;
+}
+
+.electronics__location {
+  text-align: left;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* @media only screen and (min-width: 1424px) and (max-width: 1920px) {
+  .electronics__card {
+    height: auto;
+    padding: 15px 5px;
+  }
+  .electronicsCard__info h5 {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .electronicsCard__detail {
+    font-size: 16px;
+    width: 339.79px;
+    line-height: 17.5px;
+    margin-bottom: 25px;
+  }
+  .electronics__card .ocation__wrapper {
+    padding-bottom: 20px;
+  }
+  .electronics__wrapper .electronics {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4688f1;
+  }
+  .seeAll__electronics {
+    font-size: 24px !important;
+    font-weight: bold;
+    color: #4688f1;
+  }
+
+  .seeAll__electronics {
+    color: #4688f1;
+    position: absolute;
+    right: 95px;
+    top: 95px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+  }
+} */

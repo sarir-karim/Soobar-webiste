@@ -1,0 +1,120 @@
+.Top_Body {
+  /* background-color: red; */
+  height: auto;
+  margin-bottom: 70px;
+  padding: 0 70px;
+  margin-top: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.Top_heading h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.box_container {
+  display: flex;
+  /* gap: 10%; */
+  justify-content: center;
+
+  justify-content: space-around;
+}
+.image_wrapper {
+  /* border: 3px solid black; */
+  height: 130px;
+  text-align: center;
+  background: #FFFFFF;
+box-shadow: 10.8069px 43.2275px 54.0343px rgba(229, 233, 246, 0.4);
+}
+.Box {
+  /* border: 1px solid red; */
+  width: 209px;
+  height: 100px;
+}
+
+.box_All {
+  display: grid;
+  gap: 10%;
+}
+
+.Classify_app_container {
+  /* border: 1px solid red; */
+  height: 50vh;
+}
+
+.Classify_app_container {
+  height: 90vh;
+  text-align: center;
+}
+
+.Classify_app_container img {
+  background-size: cover;
+  /* width: 100%; */
+}
+.topPrtnrBtn{
+    width: 200px;
+    height: 56px;
+  }
+  .topPrtnrBtn {
+    width: fit-content;
+    margin: 50px auto;
+  }
+  .topPrtnrBtn button {
+    background-color: #4688f1;
+    width: 194px;
+    height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+  }
+  .topPrtnrBtn button:hover {
+    background-color: #1868e9;
+    transition: 0.3s all ease-in-out;
+  }
+/* @media only screen and (min-width: 1424px) and (max-width: 1920px) {
+  .Top_heading h2 {
+    font-size: 54.426px;
+    padding-bottom: 30px;
+  }
+  .image_wrapper {
+    width: 18%;
+    height: 230px;
+    border-radius: 14.7044px;
+  }
+
+  .image_wrapper b{
+      font-size: 26.468px;
+      
+  }
+  .Box {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  .image_wrapper img {
+    background-size: cover;
+    width: 282.34px;
+    height: 167.64;
+  }
+  .box_All {
+    display: grid;
+    grid-gap: 10%;
+    margin-bottom: 40px;
+  }
+
+  .Classify_app_container img {
+    background-size: cover;
+    width: 90%;
+    height: 689.42px;
+    margin-top: 40px;
+  }
+
+  .topPrtnrBtn button{
+      width: 266.67px;
+      height: 74.67px;
+      font-size: 24px;
+      background-color: #4688f1;
+      margin: 50px 0;
+  }
+} */

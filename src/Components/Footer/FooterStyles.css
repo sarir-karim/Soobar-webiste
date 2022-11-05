@@ -1,0 +1,237 @@
+*{
+    font-family: 'Poppins' sans-serif;
+}
+
+.footer__container{
+    background-color: #3A2D78;
+    padding: 80px 30px 10px 80px;
+    
+  
+}
+
+.footer__container .footer__items{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+/* .foot2{
+    flex: 0.5;
+}
+
+ .foot1{
+    flex: 0.5;
+} */
+
+.footer__container .footer__items ul li{
+cursor: pointer;
+}
+
+.footer__container .footer__items .footer__social{
+    text-align: center;
+    color: #E1DFEA;
+}
+
+.footer__container .footer__items .footer__social > img{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.footer__container .footer__items .footer__social > h4{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.footer__container .footer__items .footer__social .social__icons{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.footer__container .footer__items .footer__social .social__icons p{
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer__container .footer__items .footer__social .social__icons .icns{
+    background-color: #483A87;
+    font-size: 40px;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+
+.footer__container .footer__items .overview ul{
+    color: #E1DFEA;
+    line-height: 6.5vh;
+    list-style-type: none;
+    /* margin-left: 20px; */
+    font-size: 12px;
+    
+}
+.footer__container .footer__items .overview ul .first{
+    margin-bottom: 15%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__container .footer__items .company ul{
+    color: #E1DFEA;
+    line-height: 6.5vh;
+    list-style-type: none;
+    /* margin-left: 30px; */
+    font-size: 12px;
+}
+.footer__container .footer__items .company ul .first{
+    margin-bottom: 15%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__container .footer__items .legal__policies ul{
+    color: #E1DFEA;
+    line-height: 6.5vh;
+    list-style-type: none;
+    /* margin-left: 30px; */
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer__container .footer__items .legal__policies ul .first{
+    margin-bottom:15%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__container .footer__items .contact__us ul{
+    color: #E1DFEA;
+    line-height: 6.5vh;
+    font-size: 12px;
+    list-style-type: none;
+    /* margin-left: 30px */
+}
+.footer__container .footer__items .contact__us ul .first{
+    margin-bottom: 10%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer__container .footer__items .contact__us ul .cntct{
+    margin-right: 20px;
+    width: 12%;
+}
+.footer__container .footer__items .download__app{
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    color: #E1DFEA;
+}
+.footer__container .footer__items .download__app .first{
+    text-align: left;
+    /* margin-left: 50px; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.footer__container .footer__items .download__app > ul{
+    list-style-type: none;
+    /* margin-left: 20px; */
+    display: inline-flex ;
+    justify-content: center;
+}
+.footer__container .footer__items .download__app ul li > .app_store{
+    width: 100%;
+}
+.footer__container .footer__items .download__app ul li > .qr_code{
+    width: 70px;
+}
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 1524px) and (max-width: 1920px){
+    .footer__container{
+        margin-top: 50px;
+    }
+    .footer__container .footer__items{
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+    }
+
+    .footer__container .footer__items .company ul{
+        color: #E1DFEA;
+        line-height: 6.5vh;
+        font-size: 16.46px;
+    }
+    .footer__container .footer__items .overview ul{
+        color: #E1DFEA;
+        line-height: 6.5vh;
+        font-size: 16.46px;
+    }
+    .footer__container .footer__items .contact__us ul{
+        color: #E1DFEA;
+        line-height: 6.5vh;
+        font-size: 16.46px;
+    }
+    .footer__container .footer__items .legal__policies ul{
+        margin-bottom: 15%;
+        font-size: 19.2px;
+        font-weight: 500;
+    }
+    
+    .footer__container .footer__items .contact__us ul .first{
+        font-size: 19.2px;
+    }
+    .footer__container .footer__items .overview ul .first{
+        margin-bottom: 15%;
+        font-size: 19.2px;
+        font-weight: 500;
+    }
+    .footer__container .footer__items .company ul .first{
+        font-size: 19.2px;
+    }
+    .footer__container .footer__items .legal__policies ul .first{
+        font-size: 19.2px;
+    }
+    .footer__container .footer__items .download__app .first{
+        font-size: 19.2px;
+        margin-left: 60px;
+    }
+    .footer__container .footer__items .download__app ul li > .app_store{
+        width: 140px;
+        height: 41.33px;
+    }
+    .footer__container .footer__items .download__app ul li > .qr_code{
+        width: 104.02px;
+    }
+    
+    .footer__container .footer__items .footer__social .social__icons .icns{
+        background-color: #483A87;
+        font-size: 55px;
+        padding: 15px;
+        margin: 4px;
+        border-radius: 10px;
+    }
+
+    .footer__container .footer__items .footer__social > h4{
+        margin: 10px;
+        font-size: 26.67px;
+        font-weight: 200;
+    }
+
+    .footer__container .footer__items .footer__social > img{
+        width: 345.73px;
+        height: 69.84px;
+        margin-bottom: 0;
+    }
+
+    .footer__container .footer__items .footer__social .social__icons p{
+        margin: 0;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    
+} */
